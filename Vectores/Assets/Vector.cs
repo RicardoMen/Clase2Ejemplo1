@@ -30,6 +30,7 @@ public class Vector : MonoBehaviour {
 			aux.y = -3;
 			transform.position = aux;
 			velocity.y *= -1;
+			velocity -= gravity;
 
 
 		}
