@@ -47,12 +47,7 @@ public class Vector : MonoBehaviour {
 			transform.position = aux;
 			velocity.x *= -1;
 		}
-		/*if (transform.position.y <= -3)
-		{
-			Vector3 aux = transform.position;
-			aux.y = -3;
-			transform.position = aux;
-		}*/
+	
 		
 	}
 }
